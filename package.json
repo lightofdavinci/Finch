@@ -1,0 +1,31 @@
+{
+  "name": "finch",
+  "version": "1.0.0",
+  "description": "page from psd mockup",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lightofdavinci/finch.git"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "dan volosnikov",
+  "license": "ISC",
+  "engines": {
+    "node": "~0.10.21"
+  },
+  "bugs": {
+    "url": "https://github.com/lightofdavinci/finch/issues"
+  },
+  "homepage": "https://github.com/lightofdavinci/finch#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.4.2"
+  }
+}
